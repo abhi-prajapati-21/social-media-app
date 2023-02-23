@@ -1,0 +1,30 @@
+.friends-header
+{
+  height: 9%;  
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+}
+.friends-list
+{
+ height: calc(100% - 22%);  
+ overflow-y: scroll; 
+}
+.user
+{
+  overflow-y: scroll; 
+}
+.fr-card
+{
+ height: min-content;
+ border: 1px solid #ffffff23;
+}
+.not-warning{
+  margin-top: 120px;
+}
+@media only screen and (max-width: 400px) {
+ .friend-name{ 
+   font-size: 5vw;
+ }
+ .remove-btn{
+  font-size: 4vw;
+ }
+}

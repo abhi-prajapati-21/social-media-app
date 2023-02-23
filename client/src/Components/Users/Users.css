@@ -1,0 +1,14 @@
+.users
+{
+  height: calc( 100% - 10%);  
+  overflow-y: scroll;
+}
+.user-header
+{
+ border-bottom: 1px solid #ffffff21;
+ height: 10%;   
+}
+.userlist
+{
+    height: calc(100% - 9%);
+}

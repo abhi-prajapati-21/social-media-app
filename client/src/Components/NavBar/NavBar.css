@@ -1,0 +1,72 @@
+.navbar
+{
+   background-color: #252525; 
+   position: sticky;
+   min-height: 8%;
+   top: 0;
+   left: 0;
+   font-size: 16px;
+   border-bottom: 1px solid #8080803b;
+}
+.avatar span
+{
+  font-size: 1.2rem;
+}
+.logo
+{
+ font-size: 4vw; 
+ margin-bottom: 0px;  
+}
+.logo-div
+{
+ display: flex;
+ align-items: center;  
+}
+.nav-links-container
+{  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 66%;
+}
+.navlinks
+{
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+  flex-grow: 1;
+  height: 100%; 
+}
+.icons
+{
+  height: 100%; 
+  width: 50%;
+  display: inline-block;
+
+}
+.active
+{
+  background-color: #343434;
+}
+.avatar
+{
+ padding: 15px 22px;
+ background-color: dodgerblue;
+ border-radius: 50%;
+ color: white;
+ margin-left: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .icons{
+    height: 31px;
+    width: 31px;
+  }
+
+  .logo
+  {
+    font-size: 5vw;
+  }
+
+}

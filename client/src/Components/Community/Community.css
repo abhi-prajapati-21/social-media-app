@@ -1,0 +1,40 @@
+.community
+{
+  height: calc(100% - 12%);
+  display: flex;
+  flex-direction: column; 
+  overflow-y: scroll;
+}
+::-webkit-scrollbar
+{
+ width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: #1e8fff5e;
+}
+.community-header
+{
+ padding: 10px;
+ max-height: 10%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;   
+ border-bottom: 1px solid #ffffff13;
+}
+.post-btn
+{
+ font-size: 1.5vw;  
+}
+.post-field
+{ 
+  min-height: calc(100% - 10%);
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .post-btn{
+    font-size: 3vw;
+  }
+}

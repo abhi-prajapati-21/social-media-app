@@ -1,0 +1,14 @@
+.profile-box
+{
+    height: 70%;
+    border: 1px solid #ffffff1e;
+    margin-top: -40px;
+}
+.go-log-btn
+{
+ border: 1px solid dodgerblue;
+ background-color: transparent;
+ color: dodgerblue;   
+ padding: 8px 15px;
+ margin-top: 20px;
+}

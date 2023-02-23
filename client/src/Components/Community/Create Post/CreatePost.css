@@ -1,0 +1,16 @@
+
+.create-post-header
+{
+ max-height: 15%;
+ height: 10%;   
+ border-bottom: 1px solid #ffffff1e;
+}
+.desc-body
+{
+  outline: none; 
+  resize: none;
+}
+.file-labels
+{
+ cursor: pointer; 
+}
